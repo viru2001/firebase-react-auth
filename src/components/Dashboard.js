@@ -13,7 +13,7 @@ export default function Dashboard() {
         setError("")
         try{
             await logout()
-            history.pushState("/login")
+            history.pushState("/firebase-react-auth/login")
             
         }catch{
             setError( "Failed to log out")
@@ -29,7 +29,7 @@ export default function Dashboard() {
                     {error && <Alert variant="danger">{error}</Alert>}
 
                     <strong>Email: </strong>{currentUser.email}
-                    <Link to="/update-profile" className="btn btn-primary w-100 mt-3">Update Profile </Link>
+                    <Link to="/firebase-react-auth/update-profile" className="btn btn-primary w-100 mt-3">Update Profile </Link>
 
                 </Card.Body>
 

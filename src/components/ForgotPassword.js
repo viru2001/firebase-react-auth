@@ -52,12 +52,12 @@ export default function ForgotPassword() {
                     </Button>
                 </Form>
             <div className="w-100 text-center mt-3 mb-3">
-                <Link to="/login">Log In</Link>
+                <Link to="/firebase-react-auth/login">Log In</Link>
             </div>
 
             </Card>
             <div className="w-100 text-center mt-2">
-                Need an account ? <Link to="/signup">Sign Up</Link>
+                Need an account ? <Link to="/firebase-react-auth/signup">Sign Up</Link>
             </div>
         </>
     )

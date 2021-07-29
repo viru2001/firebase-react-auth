@@ -25,7 +25,7 @@ export default function Signup() {
             setError("")
             setLoading(true)
             await signup(emailRef.current.value, PasswordRef.current.value)
-            history.push("/")
+            history.push("/firebase-react-auth")
         }
         catch(e) {
             console.log(e)
@@ -64,7 +64,7 @@ export default function Signup() {
                 </Form>
             </Card>
             <div className="w-100 text-center mt-2">
-                Already Have an account ? <Link to="/login">Log In</Link>
+                Already Have an account ? <Link to="/firebase-react-auth/login">Log In</Link>
             </div>
         </>
     )

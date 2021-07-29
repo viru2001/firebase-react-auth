@@ -33,7 +33,7 @@ export default function UpdateProfile() {
         }
 
         Promise.all(promises).then( ()=>{
-            history.push("/")
+            history.push("/firebase-react-auth")
         }).catch(() =>{
             setError("Failed to update profile")
         }).finally( ()=>{
@@ -72,7 +72,7 @@ export default function UpdateProfile() {
                 </Form>
             </Card>
             <div className="w-100 text-center mt-2">
-               <Link to="/">Cancel</Link>
+               <Link to="/firebase-react-auth">Cancel</Link>
             </div>
         </>
     )

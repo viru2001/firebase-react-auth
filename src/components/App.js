@@ -21,11 +21,11 @@ function App() {
           <AuthProvider>
 
           <Switch>
-          <PrivateRoute exact path="/" component={Dashboard}/>
-          <PrivateRoute exact path="/update-profile" component={UpdateProfile}/>
-            <Route path="/signup" component={Signup} />
-            <Route path="/login" component={Login} />
-            <Route path="/forgot-password" component={ForgotPassword} />
+          <PrivateRoute exact path="/firebase-react-auth/" component={Dashboard}/>
+          <PrivateRoute exact path="/firebase-react-auth/update-profile" component={UpdateProfile}/>
+            <Route path="/firebase-react-auth/signup" component={Signup} />
+            <Route path="/firebase-react-auth/login" component={Login} />
+            <Route path="/firebase-react-auth/forgot-password" component={ForgotPassword} />
           
            
           </Switch>

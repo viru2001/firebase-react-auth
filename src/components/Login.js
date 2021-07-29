@@ -23,7 +23,7 @@ export default function Login() {
             setError("")
             setLoading(true)
             await login(emailRef.current.value, PasswordRef.current.value)
-            history.push("/")
+            history.push("/firebase-react-auth")
         }
         catch(e) {
             console.log(e)
@@ -56,12 +56,12 @@ export default function Login() {
                     </Button>
                 </Form>
             <div className="w-100 text-center mt-3 mb-3">
-                <Link to="/forgot-password">Forgot Password ?</Link>
+                <Link to="/firebase-react-auth/forgot-password">Forgot Password ?</Link>
             </div>
 
             </Card>
             <div className="w-100 text-center mt-2">
-                Need an account ? <Link to="/signup">Sign Up</Link>
+                Need an account ? <Link to="/firebase-react-auth/signup">Sign Up</Link>
             </div>
         </>
     )
