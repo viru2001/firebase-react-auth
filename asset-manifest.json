@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/firebase-react-auth/static/js/main.382f7b8a.chunk.js",
+    "main.js.map": "/firebase-react-auth/static/js/main.382f7b8a.chunk.js.map",
+    "runtime-main.js": "/firebase-react-auth/static/js/runtime-main.4218d1a0.js",
+    "runtime-main.js.map": "/firebase-react-auth/static/js/runtime-main.4218d1a0.js.map",
+    "static/css/2.4be38407.chunk.css": "/firebase-react-auth/static/css/2.4be38407.chunk.css",
+    "static/js/2.86cfdf7f.chunk.js": "/firebase-react-auth/static/js/2.86cfdf7f.chunk.js",
+    "static/js/2.86cfdf7f.chunk.js.map": "/firebase-react-auth/static/js/2.86cfdf7f.chunk.js.map",
+    "index.html": "/firebase-react-auth/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/firebase-react-auth/static/css/2.4be38407.chunk.css.map",
+    "static/js/2.86cfdf7f.chunk.js.LICENSE.txt": "/firebase-react-auth/static/js/2.86cfdf7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4218d1a0.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.86cfdf7f.chunk.js",
+    "static/js/main.382f7b8a.chunk.js"
+  ]
+}
